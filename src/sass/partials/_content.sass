@@ -7,8 +7,7 @@
     display: flex
     justify-content: center
     gap: 70px
-    padding-top: 80px
-    padding-bottom: 80px
+    @include padding-sect
 
     .sect2-titres
         width: 28vw
@@ -22,9 +21,8 @@
 .section-3
     background-color : $bgsection1
     @include centered
+    @include padding-sect
     flex-direction: column
-    padding-top: 80px
-    padding-bottom: 80px
     .card
         border-radius: 1px
         border-color : $gris3
@@ -36,4 +34,12 @@
     .section-3-btns
         padding-top: 50px
 
+// Section 4
+
+.section-4
+    display: flex
+    flex-direction: column
+    @include padding-sect
+    padding-left: 10.5vw
+    
     

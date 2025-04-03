@@ -10539,9 +10539,9 @@ body .p1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding-top: 80px;
   padding-bottom: 80px;
+  flex-direction: column;
 }
 .section-3 .card {
   border-radius: 1px;
@@ -10556,6 +10556,14 @@ body .p1 {
 }
 .section-3 .section-3-btns {
   padding-top: 50px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 10.5vw;
 }
 
 .section-nav-head {
