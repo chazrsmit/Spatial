@@ -10466,6 +10466,18 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+nav .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
