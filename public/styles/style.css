@@ -10579,9 +10579,8 @@ body .p1 {
   border: #eaeaea solid 8px;
   border-radius: 50%;
 }
-.section-4 .section-4-rangees .box-1 {
-  border: 1px solid red;
-  width: 530px;
+.section-4 .section-4-rangees .box {
+  width: 580px;
 }
 
 .section-nav-head {
