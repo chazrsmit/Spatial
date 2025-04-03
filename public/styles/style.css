@@ -10466,6 +10466,11 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.section-nav-head {
+  background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -10477,6 +10482,7 @@ nav {
 nav h3 {
   font-family: Montserrat;
   font-size: 16px;
+  color: #ffffff;
 }
 nav h3 span {
   font-weight: bold;
@@ -10491,7 +10497,35 @@ nav .navbar a {
   text-decoration: none;
   font-family: Montserrat;
   font-size: 16px;
-  color: black;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+}
+header h5 {
+  color: #b6babf;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.header-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 50vw;
 }
 
 /*!
