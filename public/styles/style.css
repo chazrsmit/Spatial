@@ -10469,19 +10469,20 @@ readers do not read off random characters that represent icons */
 body p, body h1, body h2, body h3, body h4, body h5, body h6, body button, body a {
   font-family: Montserrat;
 }
-body h5 {
-  color: #6d6e72;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 1.6;
-}
 body h2 {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.5;
+  color: #323037;
+}
+body h5 {
+  color: #6d6e72;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
 }
 body .p1 {
   color: #6d6e72;
@@ -10502,15 +10503,15 @@ body .p1 {
 .section-2 {
   display: flex;
   justify-content: center;
-  gap: 70px;
-  padding-top: 30px;
+  gap: 60px;
+  padding-top: 80px;
   padding-bottom: 30px;
 }
 .section-2 .sect2-titres {
   width: 28vw;
 }
 .section-2 .sect2-textes {
-  width: 30vw;
+  width: 28vw;
   line-height: 2;
 }
 
