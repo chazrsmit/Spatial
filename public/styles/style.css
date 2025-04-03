@@ -10469,6 +10469,7 @@ readers do not read off random characters that represent icons */
 .section-nav-head {
   background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {
@@ -10480,7 +10481,6 @@ nav {
   padding-right: 50px;
 }
 nav h3 {
-  font-family: Montserrat;
   font-size: 16px;
   color: #ffffff;
 }
@@ -10495,7 +10495,6 @@ nav .navbar {
 }
 nav .navbar a {
   text-decoration: none;
-  font-family: Montserrat;
   font-size: 16px;
   color: #ffffff;
 }
@@ -10513,10 +10512,8 @@ header h1 {
   color: #ffffff;
 }
 header h5 {
-  color: #b6babf;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 18px;
+  text-align: center;
+  line-height: 1.7;
 }
 
 .header-contain {
@@ -10525,7 +10522,7 @@ header h5 {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  width: 50vw;
+  width: 40vw;
 }
 
 /*!
@@ -22372,6 +22369,17 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+p, h1, h2, h3, h4, h5, h6, button, a {
+  font-family: Montserrat;
+}
+
+h5 {
+  color: #b6babf;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
