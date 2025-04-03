@@ -10565,6 +10565,24 @@ body .p1 {
   padding-bottom: 80px;
   padding-left: 10.5vw;
 }
+.section-4 .section-4-rangees h2 {
+  font-size: 16px;
+}
+.section-4 .section-4-rangees h5 {
+  font-size: 14px;
+}
+.section-4 .section-4-rangees p {
+  font-size: 14px;
+  line-height: 1.9;
+}
+.section-4 .section-4-rangees img {
+  border: #eaeaea solid 8px;
+  border-radius: 50%;
+}
+.section-4 .section-4-rangees .box-1 {
+  border: 1px solid red;
+  width: 530px;
+}
 
 .section-nav-head {
   background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
