@@ -10496,13 +10496,27 @@ body .p1 {
   background-color: #f32853;
   color: #ffffff;
   border-radius: 4px;
-  width: 200px;
+  width: 220px;
   border: none;
   padding-top: 17px;
   padding-bottom: 17px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 19px;
+}
+
+.btnblack {
+  background-color: #f32853;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 220px;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19px;
+  background-color: #323037;
 }
 
 .section-2 {
