@@ -10694,19 +10694,10 @@ header {
 @media (max-width: 395px) {
   nav {
     gap: 30px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .navbarrr {
-    display: none;
-    visibility: hidden;
-    gap: 30px;
-  }
-  header {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-@media (min-width: 395px) and (max-width: 576px) {
   .navbarrr {
     display: none;
     visibility: hidden;
@@ -10716,6 +10707,23 @@ header {
 @media (max-width: 992px) {
   .navbarrr {
     display: none;
+  }
+  header {
+    padding-top: 80px;
+    padding-bottom: 10vh;
+  }
+  .header-contain {
+    width: 80vw !important;
+  }
+  .section-2 {
+    flex-direction: column !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+  }
+  .sect2-titres, .sect2-textes {
+    width: 80vw !important;
   }
 }
 /*!
