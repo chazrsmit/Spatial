@@ -10773,7 +10773,7 @@ header {
     display: none;
   }
   .b-texts {
-    width: 80vw !important;
+    width: 50vw !important;
     border: 1px solid yellow;
     display: flex;
     justify-content: center;
@@ -10815,6 +10815,21 @@ header {
     border: 3px orange solid;
     display: flex;
     align-items: center;
+  }
+  #box1 {
+    position: relative;
+  }
+  #box1::after {
+    content: "";
+    display: block;
+    width: 21vw;
+    height: 21vw;
+    background-image: url("../assets/img/pic05.jpg");
+    border-radius: 60%;
+    border: #eaeaea solid 8px;
+    backround-size: cover;
+    position: absolute;
+    right: 10px;
   }
 }
 /*!
