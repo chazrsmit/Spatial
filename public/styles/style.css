@@ -10469,6 +10469,12 @@ readers do not read off random characters that represent icons */
 body p, body h1, body h2, body h3, body h4, body h5, body h6, body button, body a {
   font-family: Montserrat;
 }
+body h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 body h2 {
   font-size: 40px;
   font-weight: 700;
@@ -10487,9 +10493,14 @@ body h5 {
   font-size: 21px;
   line-height: 1.6;
 }
+body .h5-head {
+  text-align: center;
+  line-height: 1.7;
+  color: #afb0b5;
+}
 body .p1 {
   color: #6d6e72;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .btnred {
@@ -10583,6 +10594,40 @@ body .p1 {
   width: 580px;
 }
 
+.section-5 {
+  background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  gap: 40px;
+}
+footer p {
+  margin: 0;
+  color: #aaaaaa;
+  font-size: 14px;
+}
+footer i {
+  color: #aaaaaa;
+  font-size: 40px;
+}
+
 .section-nav-head {
   background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
   background-size: cover;
@@ -10622,16 +10667,6 @@ header {
   align-items: center;
   padding-top: 150px;
   padding-bottom: 200px;
-}
-header h1 {
-  font-weight: bold;
-  font-size: 45px;
-  color: #ffffff;
-}
-header h5 {
-  text-align: center;
-  line-height: 1.7;
-  color: #afb0b5;
 }
 
 .header-contain {
