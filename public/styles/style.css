@@ -10751,9 +10751,63 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0px !important;
   }
   .section-4 h2, .section-4 h5 {
     text-align: center;
+    width: 80vw !important;
+  }
+  .section-4-rangees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw !important;
+  }
+  .section-4-rangee1, .section-4-rangee2 {
+    flex-direction: column;
+    width: 80vw !important;
+  }
+  .section-4-rangee1 img, .section-4-rangee2 img {
+    width: 19vw;
+  }
+  .b-texts {
+    width: 40vw !important;
+  }
+  .b-texts p {
+    font-size: 14px !important;
+  }
+  .box {
+    width: 80vw !important;
+    border: 2px green solid;
+    display: flex;
+    align-items: center;
+  }
+  #box-h2-1, #box-h5-1, #box-h2-2, #box-h5-2 {
+    width: 40vw;
+  }
+  #box-h5-1 {
+    margin-bottom: 20px !important;
+  }
+  #box-p-1 {
+    display: flex;
+    justify-content: end;
+    border: 1px red solid;
+  }
+  #box2-texts {
+    display: flex;
+    justify-content: end;
+    border: 1px yellow solid;
+    flex-direction: column;
+  }
+  #box2 {
+    display: flex;
+    justify-content: right;
+  }
+  .b-img {
+    border: 3px orange solid;
+    display: flex;
+    align-items: center;
   }
 }
 /*!
