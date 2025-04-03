@@ -1,3 +1,5 @@
+@use '_variables' as *
+
 @mixin start
     display: flex
     justify-content: start
@@ -18,4 +20,27 @@
     justify-content: space-between
     align-items: center
 
-    
+// Textes // 
+
+body
+    p, h1, h2, h3, h4, h5, h6, button, a
+        font-family: Montserrat
+
+    h5
+        color : $texte2
+        text-transform: uppercase
+        font-weight: 300
+        font-size: 20px
+        letter-spacing: 1px
+        line-height: 1.6
+
+    h2
+        font-size: 40px
+        font-weight: 700
+        letter-spacing: 1px
+        line-height: 1.5
+
+    .p1 
+        color : $texte2
+        font-size: 13px
+        

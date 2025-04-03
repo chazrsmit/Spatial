@@ -10466,6 +10466,43 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body p, body h1, body h2, body h3, body h4, body h5, body h6, body button, body a {
+  font-family: Montserrat;
+}
+body h5 {
+  color: #6d6e72;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+body h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+body .p1 {
+  color: #6d6e72;
+  font-size: 13px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-2 .sect2-titres {
+  width: 28vw;
+}
+.section-2 .sect2-textes {
+  width: 30vw;
+  line-height: 2;
+}
+
 .section-nav-head {
   background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
   background-size: cover;
@@ -10491,7 +10528,7 @@ nav .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 nav .navbar a {
   text-decoration: none;
@@ -10514,6 +10551,7 @@ header h1 {
 header h5 {
   text-align: center;
   line-height: 1.7;
+  color: #afb0b5;
 }
 
 .header-contain {
@@ -22369,17 +22407,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-p, h1, h2, h3, h4, h5, h6, button, a {
-  font-family: Montserrat;
-}
-
-h5 {
-  color: #b6babf;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 18px;
-  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
