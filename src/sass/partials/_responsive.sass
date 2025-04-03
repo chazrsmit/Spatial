@@ -50,9 +50,9 @@
     .section-4
         @include centered
         padding-left: 0px !important
-        h2, h5
-            text-align: center
-            width: 80vw !important
+    #sect4h2, #sect4h5
+        text-align: center
+        width: 80vw
     .section-4-rangees
         display: flex
         justify-content: center
@@ -64,22 +64,28 @@
         width: 80vw !important
         img
             width: 19vw
-            // display: none
+            display: none
     .b-texts
-        width: 40vw !important
+        // width: 40vw !important
+        width: 80vw !important
+        border: 1px solid yellow
+        display: flex
+        justify-content: center
+        flex-direction: column
         p
             font-size: 14px !important
+            border: solid 1px pink
     .box
         width: 80vw !important
         border: 2px green solid
         display: flex
         align-items: center
-    #box-h2-1, #box-h5-1, #box-h2-2, #box-h5-2
-        width: 40vw
         // padding-right: 212px
     //  #box-h2-1, #box-h5-1
     //     display: flex
     //     justify-content: left
+    #box-h2-1
+        border: solid 3px blue
     #box-h5-1
         margin-bottom: 20px !important
     #box-p-1
@@ -95,7 +101,7 @@
         display: flex
         justify-content: right
     .b-img
-        // display: none !important
+        display: none !important
         border: 3px orange solid
         display: flex
         align-items: center
