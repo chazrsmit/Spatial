@@ -1,5 +1,7 @@
 @use '_variables' as *
 
+// Mixins //
+ 
 @mixin start
     display: flex
     justify-content: start
@@ -19,6 +21,16 @@
     display: flex
     justify-content: space-between
     align-items: center
+
+@mixin btn1 
+    background-color: $pinkish
+    color: $texte3
+    border-radius: 4px
+    width: 200px
+    border: none
+    padding-top: 17px
+    padding-bottom: 17px
+    font-weight: bold
 
 // Textes // 
 
@@ -43,4 +55,8 @@ body
     .p1 
         color : $texte2
         font-size: 13px
+
+.btnred
+    @include btn1
+
         

@@ -10488,6 +10488,17 @@ body .p1 {
   font-size: 13px;
 }
 
+.btnred {
+  background-color: #f32853;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 200px;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-weight: bold;
+}
+
 .section-2 {
   display: flex;
   justify-content: center;
