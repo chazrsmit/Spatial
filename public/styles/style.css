@@ -10725,6 +10725,14 @@ header {
   .sect2-titres, .sect2-textes {
     width: 80vw !important;
   }
+  .section-3 h2 {
+    width: 80vw !important;
+    text-align: center;
+  }
+  .section-3-rangee-cards {
+    flex-direction: column !important;
+    width: 80vw !important;
+  }
 }
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
