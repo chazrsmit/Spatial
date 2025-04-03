@@ -1,15 +1,39 @@
 @use '_bases' as *
+@use '_variables' as *
+
+// Section 2
 
 .section-2
     display: flex
     justify-content: center
-    gap: 60px
+    gap: 70px
     padding-top: 80px
-    padding-bottom: 30px
+    padding-bottom: 80px
 
     .sect2-titres
         width: 28vw
 
     .sect2-textes
-        width: 28vw
+        width: 27vw
         line-height: 2
+
+// Section 3
+
+.section-3
+    background-color : $bgsection1
+    @include centered
+    flex-direction: column
+    padding-top: 80px
+    padding-bottom: 80px
+    .card
+        border-radius: 1px
+        border-color : $gris3
+        box-shadow: 0.5px 1px 0.5px $gris3
+        img
+            border-radius: 1px
+    .section-3-rangee-cards
+        gap: 50px
+    .section-3-btns
+        padding-top: 50px
+
+    

@@ -10475,13 +10475,16 @@ body h2 {
   letter-spacing: 1px;
   line-height: 1.5;
   color: #323037;
+  text-transform: uppercase;
+}
+body .h2-cards {
+  font-size: 20px;
 }
 body h5 {
   color: #6d6e72;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 21px;
-  letter-spacing: 0.5px;
   line-height: 1.6;
 }
 body .p1 {
@@ -10498,21 +10501,47 @@ body .p1 {
   padding-top: 17px;
   padding-bottom: 17px;
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .section-2 {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 70px;
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .section-2 .sect2-titres {
   width: 28vw;
 }
 .section-2 .sect2-textes {
-  width: 28vw;
+  width: 27vw;
   line-height: 2;
+}
+
+.section-3 {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-3 .card {
+  border-radius: 1px;
+  border-color: #eaeaea;
+  box-shadow: 0.5px 1px 0.5px #eaeaea;
+}
+.section-3 .card img {
+  border-radius: 1px;
+}
+.section-3 .section-3-rangee-cards {
+  gap: 50px;
+}
+.section-3 .section-3-btns {
+  padding-top: 50px;
 }
 
 .section-nav-head {
