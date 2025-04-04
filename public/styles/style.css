@@ -10514,6 +10514,10 @@ body .p1 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 19px;
+  transition: ease-in-out 0.3s;
+}
+.btnred:hover {
+  background-color: rgba(243, 40, 84, 0.5137254902);
 }
 
 .btnblack {
@@ -10528,6 +10532,10 @@ body .p1 {
   text-transform: uppercase;
   font-size: 19px;
   background-color: #323037;
+  transition: ease-in-out 0.3s;
+}
+.btnblack:hover {
+  background-color: rgba(50, 48, 55, 0.8078431373);
 }
 
 .navbar-toggler {
@@ -10631,6 +10639,7 @@ footer p {
 footer i {
   color: #aaaaaa;
   font-size: 40px;
+  cursor: pointer;
 }
 footer .foot-txt {
   padding-left: 20px;
@@ -10639,6 +10648,17 @@ footer .foot-txt {
   padding-bottom: 5px;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .section-nav-head {
   background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
   background-size: cover;
@@ -10656,6 +10676,9 @@ nav a {
   text-decoration: none !important;
   font-size: 16px !important;
   color: #ffffff !important;
+}
+nav a:hover {
+  animation: bounce ease 0.5s forwards !important;
 }
 nav h3 {
   font-size: 16px;

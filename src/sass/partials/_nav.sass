@@ -1,6 +1,14 @@
 @use '_bases' as *
 @use '_variables' as *
 
+@keyframes bounce
+    0%
+        transform: translateY(0px)
+    50%
+        transform: translateY(-10px)
+    100%
+        transform: translateY(0px)
+
 
 // NAV
 
@@ -20,6 +28,8 @@ nav
         text-decoration: none !important
         font-size: 16px !important
         color: $texte3 !important
+        &:hover
+            animation: bounce ease 0.5s forwards !important
 
     h3
         font-size: 16px
