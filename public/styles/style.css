@@ -10829,6 +10829,8 @@ header {
     padding-bottom: 10vh;
   }
   .header-contain {
+    margin-top: 15vh !important;
+    margin-bottom: 10vh !important;
     width: 80vw !important;
   }
   .section-2 {
