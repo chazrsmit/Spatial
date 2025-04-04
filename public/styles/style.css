@@ -10640,6 +10640,10 @@ footer i {
   color: #aaaaaa;
   font-size: 40px;
   cursor: pointer;
+  transition: all 0.1s;
+}
+footer i:hover {
+  color: #f32853;
 }
 footer .foot-txt {
   padding-left: 20px;
@@ -10707,7 +10711,7 @@ nav {
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
-  background: linear-gradient(0deg, rgba(53, 54, 68, 0.02), rgba(43, 44, 52, 0.9));
+  background: linear-gradient(0deg, rgba(53, 54, 68, 0.02), rgba(43, 44, 52, 0.8));
 }
 nav a {
   text-decoration: none !important;
