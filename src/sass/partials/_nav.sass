@@ -1,6 +1,9 @@
 @use '_bases' as *
 @use '_variables' as *
 
+
+// NAV
+
 .section-nav-head
     background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url('../../public/assets/img/banner.jpg')
     background-size: cover
@@ -8,24 +11,29 @@
     // background-blend-mode: overlay
 
 nav
-    @include between
+    display: flex !important
+    justify-content: space-between !important
     padding-top: 40px
     padding-left: 50px
     padding-right: 50px
+    a
+        text-decoration: none !important
+        font-size: 16px !important
+        color: $texte3 !important
 
     h3
         font-size: 16px
         color: $texte3
         span
             font-weight: bold
+
 @media (min-width:992px)
-    .navbarrr
+    .collapse
         @include centered
-        gap : 40px
-        a
-            text-decoration: none
-            font-size: 16px
-            color: $texte3
+        gap : 40px !important
+
+
+// HEADER 
 
 header
     @include centered

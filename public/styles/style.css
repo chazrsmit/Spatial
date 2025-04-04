@@ -10646,12 +10646,16 @@ footer .foot-txt {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex !important;
+  justify-content: space-between !important;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
+}
+nav a {
+  text-decoration: none !important;
+  font-size: 16px !important;
+  color: #ffffff !important;
 }
 nav h3 {
   font-size: 16px;
@@ -10662,16 +10666,11 @@ nav h3 span {
 }
 
 @media (min-width: 992px) {
-  .navbarrr {
+  .collapse {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-  }
-  .navbarrr a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #ffffff;
+    gap: 40px !important;
   }
 }
 header {
@@ -10709,10 +10708,27 @@ header {
     visibility: hidden;
     gap: 30px;
   }
+  .collapse, .navbar-collapse {
+    margin-top: 0px !important;
+  }
+  .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
 }
 @media (max-width: 992px) {
-  .navbarrr {
-    display: none;
+  nav {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .collapse, .navbar-collapse {
+    text-align: center;
+    margin-top: 10px !important;
   }
   header {
     padding-top: 80px;
