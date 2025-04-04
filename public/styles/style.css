@@ -10652,14 +10652,43 @@ footer .foot-txt {
   0% {
     background-color: #f32853;
     transform: translateY(0px);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
+  }
+  25% {
+    background-color: purple;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
   }
   50% {
     background-color: #323037;
-    transform: translateY(-10px);
+    transform: translateY(-8px);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
+  }
+  75% {
+    background-color: blue;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
   }
   100% {
     background-color: rgba(243, 40, 84, 0.5137254902);
     transform: translateY(0px);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10%;
+  }
+}
+@keyframes bounce2 {
+  0% {
+    letter-spacing: 1px;
+  }
+  100% {
+    letter-spacing: 2px;
   }
 }
 .section-nav-head {
@@ -10688,19 +10717,20 @@ nav h3 span {
   font-weight: bold;
 }
 
-.collapse div {
-  transition: all 0.2s;
-}
-.collapse div:hover {
-  animation: bounce ease 0.5s forwards !important;
-}
-
 @media (min-width: 992px) {
   .collapse {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px !important;
+  }
+  .collapse div {
+    transition: all 0.2s;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .collapse div:hover {
+    animation: bounce ease 0.5s forwards !important;
   }
 }
 .navbar-toggler-icon {
@@ -10767,6 +10797,14 @@ header {
   .collapse, .navbar-collapse {
     text-align: center;
     margin-top: 10px !important;
+  }
+  .collapse div {
+    transition: all 0.2s;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .collapse div:hover {
+    animation: bounce2 ease 0.5s forwards !important;
   }
   header {
     padding-top: 80px;
