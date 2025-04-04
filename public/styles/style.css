@@ -10711,7 +10711,7 @@ nav {
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
-  background: linear-gradient(0deg, rgba(53, 54, 68, 0.02), rgba(43, 44, 52, 0.8));
+  background: linear-gradient(0deg, rgba(53, 54, 68, 0.005), rgba(43, 44, 52, 0.5));
 }
 nav a {
   text-decoration: none !important;
@@ -10739,7 +10739,7 @@ nav h3 span {
     padding-right: 5px;
   }
   .collapse div:hover {
-    animation: bounce ease 0.3s forwards !important;
+    animation: bounce ease 0.5s forwards !important;
   }
 }
 .navbar-toggler-icon {
@@ -10765,6 +10765,7 @@ header {
   flex-direction: column;
   gap: 30px;
   width: 40vw;
+  margin-top: 100px !important;
 }
 
 @media (max-width: 395px) {
