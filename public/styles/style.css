@@ -10735,6 +10735,9 @@ header {
     width: 80vw !important;
     text-align: center;
   }
+  .section-3 h5 {
+    text-align: center;
+  }
   .section-3-rangee-cards {
     flex-direction: column !important;
     width: 80vw !important;
@@ -10812,7 +10815,7 @@ header {
     border: 1px yellow solid;
     flex-direction: column;
   }
-  #box2 {
+  #box2, #box4 {
     display: flex;
     justify-content: right;
   }
@@ -10836,6 +10839,21 @@ header {
     backround-size: cover;
     position: absolute;
     right: 10px;
+  }
+  #box2, #box4 {
+    position: relative;
+  }
+  #box2::before, #box4::before {
+    content: "";
+    display: block;
+    width: 21vw;
+    height: 21vw;
+    background-image: url("../assets/img/pic05.jpg");
+    border-radius: 60%;
+    border: #eaeaea solid 8px;
+    backround-size: cover;
+    position: absolute;
+    left: 10px;
   }
   .section-5 h1 {
     text-align: center;

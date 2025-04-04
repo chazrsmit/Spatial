@@ -38,6 +38,8 @@
         h2
             width: 80vw !important
             text-align: center
+        h5
+            text-align: center
     .section-3-rangee-cards
         flex-direction: column !important
         width: 80vw !important
@@ -102,7 +104,7 @@
         justify-content: end
         border: 1px yellow solid
         flex-direction: column
-    #box2
+    #box2, #box4
         display: flex
         justify-content: right
     .b-img
@@ -123,7 +125,20 @@
         backround-size: cover
         position: absolute
         right: 10px
-    
+    #box2, #box4
+        position: relative
+    #box2::before, #box4::before
+        content: ""
+        display: block
+        width: 21vw
+        height: 21vw
+        background-image: url('../assets/img/pic05.jpg')
+        border-radius: 60%
+        border: $gris3 solid 8px
+        backround-size: cover
+        position: absolute
+        left: 10px
+
     .section-5
         h1
             text-align: center
