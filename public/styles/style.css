@@ -10822,10 +10822,10 @@ header {
     display: flex;
     align-items: center;
   }
-  #box1 {
+  #box1, #box3 {
     position: relative;
   }
-  #box1::after {
+  #box1::after, #box3::after {
     content: "";
     display: block;
     width: 21vw;
