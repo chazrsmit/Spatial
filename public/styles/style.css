@@ -10692,7 +10692,7 @@ footer .foot-txt {
   }
 }
 .section-nav-head {
-  background: linear-gradient(0deg, rgba(43, 44, 52, 0.708), rgba(53, 54, 68, 0.725)), url("../../public/assets/img/banner.jpg");
+  background: linear-gradient(0deg, rgba(43, 44, 52, 0.9), rgba(53, 54, 68, 0.9)), url("../../public/assets/img/banner.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -10707,6 +10707,7 @@ nav {
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
+  background: linear-gradient(0deg, rgba(53, 54, 68, 0.1), rgba(43, 44, 52, 0.9));
 }
 nav a {
   text-decoration: none !important;
