@@ -69,40 +69,32 @@
     .section-4-rangee1, .section-4-rangee2
         flex-direction: column
         width: 80vw !important
+        justify-content: center
+        align-items: center
         img
             width: 19vw
             display: none
     .b-texts
         // width: 40vw !important
         width: 50vw !important
-        border: 1px solid yellow
         display: flex
         justify-content: center
         flex-direction: column
         p
             font-size: 14px !important
-            border: solid 1px pink
     .box
-        width: 80vw !important
-        border: 2px green solid
+        width: 90vw !important
         display: flex
         align-items: center
-        // padding-right: 212px
-    //  #box-h2-1, #box-h5-1
-    //     display: flex
-    //     justify-content: left
-    #box-h2-1
-        border: solid 3px blue
+        // border: 1px red solid
     #box-h5-1
         margin-bottom: 20px !important
     #box-p-1
         display: flex
         justify-content: end
-        border: 1px red solid
     #box2-texts
         display: flex
         justify-content: end
-        border: 1px yellow solid
         flex-direction: column
     #box2, #box4
         display: flex
@@ -117,27 +109,31 @@
     #box1::after, #box3::after
         content: ""
         display: block
-        width: 21vw
-        height: 21vw
-        background-image: url('../assets/img/pic05.jpg')
+        width: 28vw
+        height: 28vw
+        background-image: url('../assets/img/pic04.jpg')
         border-radius: 60%
         border: $gris3 solid 8px
-        backround-size: cover
+        background-size: contain
         position: absolute
-        right: 10px
+        right: 15px
+    #box3::after
+        background-image: url('../assets/img/pic06.jpg')
     #box2, #box4
         position: relative
     #box2::before, #box4::before
         content: ""
         display: block
-        width: 21vw
-        height: 21vw
+        width: 28vw
+        height: 28vw
         background-image: url('../assets/img/pic05.jpg')
         border-radius: 60%
         border: $gris3 solid 8px
-        backround-size: cover
+        background-size: contain
         position: absolute
-        left: 10px
+        left: 15px
+    #box4::before
+        background-image: url('../assets/img/pic07.jpg')
 
     .section-5
         h1
