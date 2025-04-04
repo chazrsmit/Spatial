@@ -3,10 +3,13 @@
 
 @keyframes bounce
     0%
+        background-color: $pinkish
         transform: translateY(0px)
     50%
+        background-color: $blackish
         transform: translateY(-10px)
     100%
+        background-color: $pinkishhover
         transform: translateY(0px)
 
 
@@ -28,14 +31,16 @@ nav
         text-decoration: none !important
         font-size: 16px !important
         color: $texte3 !important
-        &:hover
-            animation: bounce ease 0.5s forwards !important
-
     h3
         font-size: 16px
         color: $texte3
         span
             font-weight: bold
+.collapse
+    div
+        transition: all 0.2s
+        &:hover
+            animation: bounce ease 0.5s forwards !important
 
 @media (min-width:992px)
     .collapse

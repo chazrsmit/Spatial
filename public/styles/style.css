@@ -10650,12 +10650,15 @@ footer .foot-txt {
 
 @keyframes bounce {
   0% {
+    background-color: #f32853;
     transform: translateY(0px);
   }
   50% {
+    background-color: #323037;
     transform: translateY(-10px);
   }
   100% {
+    background-color: rgba(243, 40, 84, 0.5137254902);
     transform: translateY(0px);
   }
 }
@@ -10677,15 +10680,19 @@ nav a {
   font-size: 16px !important;
   color: #ffffff !important;
 }
-nav a:hover {
-  animation: bounce ease 0.5s forwards !important;
-}
 nav h3 {
   font-size: 16px;
   color: #ffffff;
 }
 nav h3 span {
   font-weight: bold;
+}
+
+.collapse div {
+  transition: all 0.2s;
+}
+.collapse div:hover {
+  animation: bounce ease 0.5s forwards !important;
 }
 
 @media (min-width: 992px) {
